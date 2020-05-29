@@ -1,11 +1,11 @@
 
 @media (min-width: 600px) {
-    .contact-list-item {
+    .hub-list-item {
       margin-top: 20px;
       border: 1px solid #d5d8df;
       border-radius: 4px;
     }
-    .contact-list {
+    .hub-list {
       width: 100%;
       display: flex;
       padding: 0;
@@ -23,7 +23,7 @@
     }
 
     .hub-title{
-        font-size: 35px;
+        font-size: 28px;
         font-family: "Oswald";
     }
     .address{

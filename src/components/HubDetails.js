@@ -7,7 +7,7 @@ class HubDetails extends React.Component{
         return(
             <div
                 style={{
-                    width: '70%', background: 'white'
+                     background: 'white', height: "auto"
                 }} 
             >
                 <Link to ="/" className="close-create-contact">Back</Link>

@@ -45,6 +45,11 @@ class App extends React.Component{
   render(){
     return(
       <div>
+        
+        <h1 style={{textAlign: "center", color:'white', background:'#db3944', margin:'0' }}>
+            HUB FINDER
+        </h1>
+        
         <Route exact path="/" render={() => (
           <SearchComponent 
             handleSubmit= {this.handleSubmit} 
