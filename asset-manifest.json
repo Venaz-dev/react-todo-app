@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-hub-app-2/static/css/main.1142f511.chunk.css",
+    "main.js": "/react-hub-app-2/static/js/main.24a43d46.chunk.js",
+    "main.js.map": "/react-hub-app-2/static/js/main.24a43d46.chunk.js.map",
+    "runtime-main.js": "/react-hub-app-2/static/js/runtime-main.cf56e4c8.js",
+    "runtime-main.js.map": "/react-hub-app-2/static/js/runtime-main.cf56e4c8.js.map",
+    "static/js/2.016a2a2c.chunk.js": "/react-hub-app-2/static/js/2.016a2a2c.chunk.js",
+    "static/js/2.016a2a2c.chunk.js.map": "/react-hub-app-2/static/js/2.016a2a2c.chunk.js.map",
+    "index.html": "/react-hub-app-2/index.html",
+    "precache-manifest.8ef5dce657b9869b682e3ff9839a0ba0.js": "/react-hub-app-2/precache-manifest.8ef5dce657b9869b682e3ff9839a0ba0.js",
+    "service-worker.js": "/react-hub-app-2/service-worker.js",
+    "static/css/main.1142f511.chunk.css.map": "/react-hub-app-2/static/css/main.1142f511.chunk.css.map",
+    "static/js/2.016a2a2c.chunk.js.LICENSE.txt": "/react-hub-app-2/static/js/2.016a2a2c.chunk.js.LICENSE.txt",
+    "static/media/contactStyle.css": "/react-hub-app-2/static/media/person.1456a6be.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf56e4c8.js",
+    "static/js/2.016a2a2c.chunk.js",
+    "static/css/main.1142f511.chunk.css",
+    "static/js/main.24a43d46.chunk.js"
+  ]
+}
