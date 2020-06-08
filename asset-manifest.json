@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-hub-app-2/static/css/main.fdb0a5e4.chunk.css",
-    "main.js": "/react-hub-app-2/static/js/main.ab01cd46.chunk.js",
-    "main.js.map": "/react-hub-app-2/static/js/main.ab01cd46.chunk.js.map",
+    "main.css": "/react-hub-app-2/static/css/main.2f6e7b32.chunk.css",
+    "main.js": "/react-hub-app-2/static/js/main.e0d17dff.chunk.js",
+    "main.js.map": "/react-hub-app-2/static/js/main.e0d17dff.chunk.js.map",
     "runtime-main.js": "/react-hub-app-2/static/js/runtime-main.cf56e4c8.js",
     "runtime-main.js.map": "/react-hub-app-2/static/js/runtime-main.cf56e4c8.js.map",
     "static/js/2.016a2a2c.chunk.js": "/react-hub-app-2/static/js/2.016a2a2c.chunk.js",
     "static/js/2.016a2a2c.chunk.js.map": "/react-hub-app-2/static/js/2.016a2a2c.chunk.js.map",
     "index.html": "/react-hub-app-2/index.html",
-    "precache-manifest.41f579e29972821be9626ff86f0d12ef.js": "/react-hub-app-2/precache-manifest.41f579e29972821be9626ff86f0d12ef.js",
+    "precache-manifest.d5ea4709927de9310ac96d7718ef43f3.js": "/react-hub-app-2/precache-manifest.d5ea4709927de9310ac96d7718ef43f3.js",
     "service-worker.js": "/react-hub-app-2/service-worker.js",
-    "static/css/main.fdb0a5e4.chunk.css.map": "/react-hub-app-2/static/css/main.fdb0a5e4.chunk.css.map",
+    "static/css/main.2f6e7b32.chunk.css.map": "/react-hub-app-2/static/css/main.2f6e7b32.chunk.css.map",
     "static/js/2.016a2a2c.chunk.js.LICENSE.txt": "/react-hub-app-2/static/js/2.016a2a2c.chunk.js.LICENSE.txt",
     "static/media/contactStyle.css": "/react-hub-app-2/static/media/person.1456a6be.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cf56e4c8.js",
     "static/js/2.016a2a2c.chunk.js",
-    "static/css/main.fdb0a5e4.chunk.css",
-    "static/js/main.ab01cd46.chunk.js"
+    "static/css/main.2f6e7b32.chunk.css",
+    "static/js/main.e0d17dff.chunk.js"
   ]
 }
