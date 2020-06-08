@@ -20,9 +20,9 @@ body, .app {
 
 /* CreateContact */
 .hub-filter{
-  background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/people-connecting.jpg");
+  background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.5), rgba(0,0,0,2.5)), url("./images/people-connecting.jpg");
   width: 100%;
-  height: 429px;
+  height: 332px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -34,10 +34,12 @@ body, .app {
 .search-description{
   text-transform: uppercase;
   color: white;
-  font-size: 40px;
+  font-size: 4em;
   text-align: center;
-  font-family: "Proxima Nova";
+  font-family: "Baloo 2";
   margin-top: 0;
+  text-align: left;
+  padding-left: 30px;
 }
 .search-form{
   display: flex;
@@ -87,17 +89,17 @@ body, .app {
   color: #282A2A;
 }
 .more-details{
-  border: 1px solid gray;
-  font-family: 'Bree Serif';
+  border: 0;
+  font-size: 18px;
+  font-family: "Oswald";
   text-decoration: none;
   color: #CE391B;
-  width: 50%;
+  width: auto;
   padding: 5px;
   margin: auto;
   margin-top: 10px;
   display: grid;
   place-items: center;
-  border-radius: 5%;
   font-size: 14px;
 }
 .more-details:hover{
@@ -203,36 +205,30 @@ body, .app {
 }
 
 .hub-list {
-  width: 100%;
-  margin: 0;
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  list-style-type: none;
-  
 }
+
 .hub-list-item {
   padding: 10px;
-  background: white;
-  margin: 10px;
+  border: 0;
+  margin: 50px;
   margin-top: 20px;
-  width: 250px;
+  width: 180px;
   height: 350px;
-  
-
 }
 
 
 .hub-image {
-  width: auto;
-  height: 200px;
+  width: 180px;
+  height: 220px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  border-radius: 20px;
   
 }
-.hub-image > label{
+.hub-image label{
   font-family: 'Open Sans';
   text-transform: capitalize;
   font-weight: bold;
@@ -241,7 +237,7 @@ body, .app {
   padding: 2px  10px;
   background: rgba(219, 57, 68, 0.8);
   width: max-content;
-  position: absolute;
+  border-top-left-radius: 20px;
   
 }
 
@@ -282,20 +278,45 @@ body, .app {
   outline: none;
 }
 
-@media (min-width: 600px) {
-    .hub-list-item {
-      margin-top: 20px;
-      border: 1px solid #d5d8df;
-      border-radius: 4px;
-    }
-    .hub-list {
-      width: 100%;
-      display: flex;
-      padding: 0;
-      list-style-type: none;
-      margin: auto;
-    }
-  }
+.details-box{
+  min-height: 100vh;
+  background-position: 50%;
+  background-size: cover;
+  padding: 40px 10px;
+  color: #eee;
+  line-height: 1.5;
+  font-size: 18px;
+  display: flex;
+
+  
+}
+.details-image-box{
+  min-height: 200px;
+  margin-right: 70px;
+  margin-left: 70px;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  background-size: 300px 400px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.details-image{
+  width: 300px;
+  border-radius: 30px;
+}
+.hub-info{
+  text-align: left;
+  padding: 2px 20px;
+  font-family: 'Poppins','Open Sans';
+}
+.scroll{
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
+
   
   @media (max-width: 500px){
     .hub-list-item{
@@ -315,10 +336,7 @@ body, .app {
         background-size: 15px;
         background-position: 20px 5px ;
     }
-    .more-details{
-        font-size: 18px;
-        font-family: "Oswald";
-    }
+    
     .hub-image > label{
         text-transform: capitalize;
         font-size: 18px;

@@ -12,7 +12,8 @@ class App extends React.Component{
   state={
     hubs: HubData,
     hubDet: "",
-    city: ""
+    city: "",
+    hubID:""
   }
   // Function to update the "city" state from the "SearchComponent" Component
   
@@ -37,18 +38,16 @@ class App extends React.Component{
     })
     const hubState = this.state.hubs[hubIndex]
     this.setState({
-      hubDet: hubState
+      hubDet: hubState,
+      hubID: id
     })
-    
+    console.log("mmmm", this.state.hubID)
+    console.log(this.state.hubDet)
 
   }
   render(){
     return(
       <div>
-        
-        <h1 style={{textAlign: "center", color:'white', background:'#db3944', margin:'0' }}>
-            HUB FINDER
-        </h1>
         
         <Route exact path="/" render={() => (
           <SearchComponent 
@@ -60,7 +59,7 @@ class App extends React.Component{
           <DisplayHub  city={this.state.city} detailsClick = {this.detailsClick}/>
         )}/> 
           
-        <Route path="/details">
+        <Route path='/details'>
           <HubDetails details= {this.state.hubDet}/>
         </Route>
       </div>

@@ -16,6 +16,10 @@ class DisplayHub extends React.Component{
                                 c.city.toLowerCase().includes(city.toLowerCase())
                             ))
         const ShowHub = showingCity.map(hub =>
+            <Link  
+                className="more-details" 
+                to='/details'
+                onClick={() => detailsClick(hub.id)}>
             <div className="hub-list-item" >
                 <div 
                     className="hub-image" 
@@ -28,13 +32,10 @@ class DisplayHub extends React.Component{
                     <h4 className="hub-title">{hub.name}</h4>
                     <label className="address"> {hub.address}</label>
                 </div>
-                <Link  
-                     className="more-details" 
-                    to="/details"
-                    onClick={() => detailsClick(hub.id)}>More Details
-                </Link>
+                
             
             </div>
+            </Link>
             )
 
         return(
@@ -42,10 +43,10 @@ class DisplayHub extends React.Component{
                 <div style={{background: 'white', padding:'30px'}}>
                     <h1 className="hub-title">Featured Hubs in your City</h1>
                 </div>
-                <div className="hub-list">
-                    
-                
-                    {ShowHub}
+                <div className="scroll">
+                    <div className="scroll" style={{display:'flex'}}>    
+                        {ShowHub}
+                    </div>
                 </div>
             </body>
         )

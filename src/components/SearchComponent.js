@@ -13,14 +13,14 @@ class SearchComponent extends React.Component {
         return(
             <div className="hub-filter">
                 <h1 className = "search-description"
-                    style ={{marginTop: '10%'}}
+                    style ={{marginTop: '5%', fontWeight:'bold'}}
                 > 
-                    Find the best Tech Hubs within your city </h1>
+                    the hub finder </h1>
                 <h3 
                     className="search-description"
-                    style={{textTransform: "capitalize", fontSize: "26px" }}
+                    style={{textTransform: "capitalize", fontSize: "2em" }}
                 > 
-                    Connect with Developers and Designers
+                    best Tech Hubs within your city
                 </h3>
                 <form className="search-form" onSubmit={this.props.handleSubmit}>
                     

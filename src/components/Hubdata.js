@@ -33,7 +33,21 @@ const HubData = [
         address: "Opposite Pleasure Park, Aba Road, Obio Akpor, elibolo rumumasi",
         city: "lagos",
         imageURL: "https://www.venazinsights.com/wp-content/uploads/2020/04/gears5.jpg"
-    }
+    },
+    {
+        id: "tech2",
+        name: "Tech Two",
+        address: "Opposite Pleasure Park",
+        city: "Port Harcourt",
+        imageURL: "https://www.venazinsights.com/wp-content/uploads/2020/05/Tech-Creek.png"
+    },
+    {
+        id: "tech3",
+        name: "Tech 3",
+        address: "Opposite Pleasure Park",
+        city: "Port Harcourt",
+        imageURL: "https://www.venazinsights.com/wp-content/uploads/2020/05/Tech-Creek.png"
+    },
 ]
 
 export default HubData
