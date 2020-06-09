@@ -21,16 +21,17 @@ class DisplayHub extends React.Component{
                 to='/details'
                 onClick={() => detailsClick(hub.id)}>
             <div className="hub-list-item" >
-                <div 
-                    className="hub-image" 
-                    style={{
-                            backgroundImage : `url(${hub.imageURL})`}}
-                >
-                <label>{hub.city}</label>
+                <div className="hub-image-section">
+                    <div 
+                        className="hub-image" 
+                        style={{
+                                backgroundImage : `url(${hub.imageURL})`}}
+                    >
+                    </div>
                 </div> 
                 <div className="hub-details" >
                     <h4 className="hub-title">{hub.name}</h4>
-                    <label className="address"> {hub.address}</label>
+                    <p className="address"> {hub.city}</p>
                 </div>
                 
             

@@ -1,7 +1,6 @@
 import React from 'react';
 import {Route} from "react-router-dom"
-import './contactStyle.css';
-import "./mobileStyle.css"
+import './hubStyle.css';
 import DisplayHub from "./components/DisplayHub"
 import HubDetails from "./components/HubDetails"
 import HubData from "./components/Hubdata"
