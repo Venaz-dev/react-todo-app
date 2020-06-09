@@ -18,7 +18,7 @@ class SearchComponent extends React.Component {
                     the hub finder </h1>
                 <h3 
                     className="search-description"
-                    style={{textTransform: "capitalize", fontSize: "2em" }}
+                    style={{textTransform: "capitalize" }}
                 > 
                     best Tech Hubs within your city
                 </h3>

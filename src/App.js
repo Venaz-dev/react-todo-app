@@ -19,8 +19,6 @@ class App extends React.Component{
   
   handleSubmit = (event) => {
     event.preventDefault()
-    console.log(this.state.city)
-    
   }
   updateQuery = (formQuery) => {
     this.setState({
@@ -41,8 +39,6 @@ class App extends React.Component{
       hubDet: hubState,
       hubID: id
     })
-    console.log("mmmm", this.state.hubID)
-    console.log(this.state.hubDet)
 
   }
   render(){

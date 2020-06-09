@@ -43,11 +43,12 @@ class DisplayHub extends React.Component{
                 <div style={{background: 'white', padding:'30px'}}>
                     <h1 className="hub-title">Featured Hubs in your City</h1>
                 </div>
-                <div className="scroll">
-                    <div className="scroll" style={{display:'flex'}}>    
-                        {ShowHub}
-                    </div>
+                <div className="scroll" style={{display:'flex'}}>    
+                    {ShowHub}
                 </div>
+                <div style={{background: 'white', padding:'30px'}}>
+                <h1 className="hub-title">Featured Hubs in your City</h1>
+            </div>
             </body>
         )
     
