@@ -104,10 +104,17 @@ body, .app {
   text-decoration: none;
   color: black;
 }
-.close-create-contact {
+.back-button-container{
+  background: lightgray;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top:10px;
+}
+.back-button {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-image: url('./icons/arrow-back.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -210,6 +217,7 @@ body, .app {
   width: 180px;
   height: 350px;
   transition: transform .2s;
+  align-items: center;
 }
 .hub-list-item:hover {
   transform: scale(1.05);
@@ -220,13 +228,14 @@ body, .app {
   height: 220px;
   border-radius: 20px;
   background-color: #fff;
+  
 }
 .hub-image {
   width: 180px;
   height: 220px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: 50%;
   border-radius: 20px;
   
 }
@@ -292,10 +301,17 @@ body, .app {
 
   
 }
-.details-image-box{
-  min-height: 200px;
+.details-image-container{
+  background: #fff;
   margin-right: 70px;
   margin-left: 70px;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+.details-image-box{
+  min-height: 200px;
+  
   text-align: center;
   width: 300px;
   height: 400px;
@@ -344,6 +360,9 @@ div::-webkit-scrollbar-thumb{
       height: auto;
       
     }
+    .hub-image-section{
+      width: 150px;
+    }
     .hub-image{
       width: 150px;
       background-size: contain;
@@ -381,13 +400,13 @@ div::-webkit-scrollbar-thumb{
     .details-box{
       flex-direction: column;
       padding-top: 0;
+      align-items: center;
       
     }
 
     .details-image-box{
       margin: 0;
       width: 250px;
-      margin: 20px;
       height: 380px;
     }
     .hub-info h4{
@@ -396,4 +415,10 @@ div::-webkit-scrollbar-thumb{
     .hub-info{
       font-family: 'Baloo 2';
     }
+    .details-image-container{
+      width: 250px;
+      margin-top: 70px;
+      height: 380px;
+      
+    }   
   }

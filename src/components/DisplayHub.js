@@ -42,7 +42,7 @@ class DisplayHub extends React.Component{
         return(
             <body>
                 <div style={{background: 'white', padding:'30px'}}>
-                    <h1 className="hub-title">Featured Hubs in your City</h1>
+                    <h1 className="hub-title">Featured Hubs in {city=== "" ? "your city" : city }</h1>
                 </div>
                 <div className="scroll" style={{display:'flex'}}>    
                     {ShowHub}
